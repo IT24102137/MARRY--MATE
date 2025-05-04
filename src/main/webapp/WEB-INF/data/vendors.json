@@ -1,0 +1,223 @@
+{
+  "vendors": [
+    {
+      "businessName": "Elegant Photography",
+      "contactPerson": "David Williams",
+      "serviceIds": [
+        "S1001"
+      ],
+      "description": "Award-winning wedding photography with 15+ years of experience capturing special moments.",
+      "priceRange": {
+        "min": 1500,
+        "max": 5000
+      },
+      "averagePrice": 3000.0,
+      "location": "100 Main Street, Boston, MA",
+      "availability": [
+        "2025-05-10",
+        "2025-05-17",
+        "2025-05-24",
+        "2025-06-07",
+        "2025-06-14"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        {
+          "userId": "U1001",
+          "comment": "David captured our wedding beautifully. Every moment was perfect!",
+          "rating": 5.0
+        },
+        {
+          "userId": "U1003",
+          "comment": "Great photographer, very professional and creative.",
+          "rating": 4.5
+        }
+      ],
+      "portfolioImages": [
+        "images/vendors/elegant_photos/sample1.jpg",
+        "images/vendors/elegant_photos/sample2.jpg",
+        "images/vendors/elegant_photos/sample3.jpg"
+      ],
+      "featured": true,
+      "username": "elegant_photos",
+      "password": "hashed_vendor_password",
+      "email": "contact@elegantphotos.com",
+      "phoneNumber": "+1-555-111-2222",
+      "role": "vendor",
+      "registrationDate": "2024-11-15 10:30:00",
+      "active": true
+    },
+    {
+      "businessName": "The Grand Ballroom",
+      "contactPerson": "Jennifer Lopez",
+      "serviceIds": [
+        "S1002"
+      ],
+      "description": "Luxurious wedding venue with stunning views and elegant décor for up to 300 guests.",
+      "priceRange": {
+        "min": 5000,
+        "max": 15000
+      },
+      "averagePrice": 10000.0,
+      "location": "555 Harbor Drive, Miami, FL",
+      "availability": [
+        "2025-06-21",
+        "2025-06-28",
+        "2025-07-12",
+        "2025-07-19",
+        "2025-08-02"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        {
+          "userId": "U1002",
+          "comment": "The Grand Ballroom was the perfect venue for our wedding. Everyone was amazed!",
+          "rating": 5.0
+        }
+      ],
+      "portfolioImages": [
+        "images/vendors/grand_ballroom/venue1.jpg",
+        "images/vendors/grand_ballroom/venue2.jpg",
+        "images/vendors/grand_ballroom/venue3.jpg"
+      ],
+      "featured": true,
+      "username": "grand_ballroom",
+      "password": "hashed_vendor_password",
+      "email": "events@grandballroom.com",
+      "phoneNumber": "+1-555-222-3333",
+      "role": "vendor",
+      "registrationDate": "2024-10-20 14:15:00",
+      "active": true
+    },
+    {
+      "businessName": "Delicious Catering Co.",
+      "contactPerson": "Michael Brown",
+      "serviceIds": [
+        "S1003"
+      ],
+      "description": "Farm-to-table catering with customizable menus for weddings of all sizes.",
+      "priceRange": {
+        "min": 50,
+        "max": 150
+      },
+      "averagePrice": 85.0,
+      "location": "200 Culinary Lane, Chicago, IL",
+      "availability": [
+        "2025-05-03",
+        "2025-05-17",
+        "2025-05-31",
+        "2025-06-14",
+        "2025-06-28"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        {
+          "userId": "U1004",
+          "comment": "The food was absolutely amazing. All our guests complimented the menu!",
+          "rating": 5.0
+        },
+        {
+          "userId": "U1005",
+          "comment": "Great service and delicious food. Highly recommend!",
+          "rating": 4.8
+        }
+      ],
+      "portfolioImages": [
+        "images/vendors/delicious_catering/food1.jpg",
+        "images/vendors/delicious_catering/food2.jpg",
+        "images/vendors/delicious_catering/food3.jpg"
+      ],
+      "featured": false,
+      "username": "delicious_catering",
+      "password": "hashed_vendor_password",
+      "email": "info@deliciouscatering.com",
+      "phoneNumber": "+1-555-333-4444",
+      "role": "vendor",
+      "registrationDate": "2024-12-05 09:45:00",
+      "active": true
+    },
+    {
+      "businessName": "Floral Dreams",
+      "contactPerson": "Emily Chen",
+      "serviceIds": [
+        "S1004"
+      ],
+      "description": "Custom floral designs for weddings with a focus on seasonal and local blooms.",
+      "priceRange": {
+        "min": 1000,
+        "max": 5000
+      },
+      "averagePrice": 2500.0,
+      "location": "75 Garden Way, Portland, OR",
+      "availability": [
+        "2025-05-10",
+        "2025-05-24",
+        "2025-06-07",
+        "2025-06-21",
+        "2025-07-05"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        {
+          "userId": "U1003",
+          "comment": "Emily\u0027s floral arrangements were stunning! Exactly what we wanted.",
+          "rating": 4.8
+        }
+      ],
+      "portfolioImages": [
+        "images/vendors/floral_dreams/flowers1.jpg",
+        "images/vendors/floral_dreams/flowers2.jpg",
+        "images/vendors/floral_dreams/flowers3.jpg"
+      ],
+      "featured": false,
+      "username": "floral_dreams",
+      "password": "hashed_vendor_password",
+      "email": "contact@floraldreams.com",
+      "phoneNumber": "+1-555-444-5555",
+      "role": "vendor",
+      "registrationDate": "2025-01-10 13:20:00",
+      "active": true
+    },
+    {
+      "businessName": "Beat Masters DJ",
+      "contactPerson": "Alex Johnson",
+      "serviceIds": [
+        "S1005"
+      ],
+      "description": "Professional DJ services specializing in weddings with state-of-the-art equipment.",
+      "priceRange": {
+        "min": 800,
+        "max": 2500
+      },
+      "averagePrice": 1500.0,
+      "location": "300 Music Avenue, Nashville, TN",
+      "availability": [
+        "2025-05-03",
+        "2025-05-10",
+        "2025-05-17",
+        "2025-05-31",
+        "2025-06-14"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        {
+          "userId": "U1002",
+          "comment": "Alex kept the dance floor packed all night! Great music selection.",
+          "rating": 4.7
+        }
+      ],
+      "portfolioImages": [
+        "images/vendors/beat_masters/dj1.jpg",
+        "images/vendors/beat_masters/dj2.jpg"
+      ],
+      "featured": false,
+      "username": "beat_masters",
+      "password": "hashed_vendor_password",
+      "email": "info@beatmastersdj.com",
+      "phoneNumber": "+1-555-555-6666",
+      "role": "vendor",
+      "registrationDate": "2025-01-25 15:10:00",
+      "active": true
+    }
+  ]
+}

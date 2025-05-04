@@ -1,0 +1,81 @@
+{
+  "services": [
+    {
+      "serviceId": "S1001",
+      "serviceName": "Wedding Photography",
+      "category": "photography",
+      "description": "Professional wedding photography services to capture your special day",
+      "iconPath": "images/services/icons/photography.png",
+      "backgroundImagePath": "images/services/backgrounds/photography-bg.jpg",
+      "displayOrder": 1,
+      "active": true,
+      "customizationOptions": ["Full Day Coverage", "Half Day Coverage", "Engagement Session", "Album Design", "Second Photographer"]
+    },
+    {
+      "serviceId": "S1002",
+      "serviceName": "Wedding Venue",
+      "category": "venue",
+      "description": "Beautiful locations for your wedding ceremony and reception",
+      "iconPath": "images/services/icons/venue.png",
+      "backgroundImagePath": "images/services/backgrounds/venue-bg.jpg",
+      "displayOrder": 2,
+      "active": true,
+      "customizationOptions": ["Indoor Ceremony", "Outdoor Ceremony", "Reception Hall", "Gardens", "Beach Wedding", "Capacity Options"]
+    },
+    {
+      "serviceId": "S1003",
+      "serviceName": "Catering Services",
+      "category": "catering",
+      "description": "Delicious food and beverage options for your wedding",
+      "iconPath": "images/services/icons/catering.png",
+      "backgroundImagePath": "images/services/backgrounds/catering-bg.jpg",
+      "displayOrder": 3,
+      "active": true,
+      "customizationOptions": ["Buffet Style", "Plated Dinner", "Cocktail Hour", "Dessert Bar", "Open Bar", "Specialty Drinks"]
+    },
+    {
+      "serviceId": "S1004",
+      "serviceName": "Wedding Flowers",
+      "category": "florist",
+      "description": "Beautiful floral arrangements for ceremonies and receptions",
+      "iconPath": "images/services/icons/flowers.png",
+      "backgroundImagePath": "images/services/backgrounds/flowers-bg.jpg",
+      "displayOrder": 4,
+      "active": true,
+      "customizationOptions": ["Bridal Bouquet", "Bridesmaid Bouquets", "Boutonnieres", "Ceremony Decor", "Reception Centerpieces"]
+    },
+    {
+      "serviceId": "S1005",
+      "serviceName": "Wedding DJ",
+      "category": "entertainment",
+      "description": "Professional DJs to keep your guests entertained",
+      "iconPath": "images/services/icons/dj.png",
+      "backgroundImagePath": "images/services/backgrounds/dj-bg.jpg",
+      "displayOrder": 5,
+      "active": true,
+      "customizationOptions": ["Ceremony Sound", "Reception Music", "MC Services", "Lighting", "Special Effect"]
+    },
+    {
+      "serviceId": "S1006",
+      "serviceName": "Wedding Cake",
+      "category": "bakery",
+      "description": "Custom wedding cakes and desserts",
+      "iconPath": "images/services/icons/cake.png",
+      "backgroundImagePath": "images/services/backgrounds/cake-bg.jpg",
+      "displayOrder": 6,
+      "active": true,
+      "customizationOptions": ["Multi-tier Cake", "Cupcake Tower", "Dessert Table", "Cake Tastings", "Custom Designs"]
+    },
+    {
+      "serviceId": "S1007",
+      "serviceName": "Wedding Planner",
+      "category": "planning",
+      "description": "Full-service wedding planning and coordination",
+      "iconPath": "images/services/icons/planner.png",
+      "backgroundImagePath": "images/services/backgrounds/planner-bg.jpg",
+      "displayOrder": 7,
+      "active": true,
+      "customizationOptions": ["Full Planning", "Month-of Coordination", "Day-of Coordination", "Vendor Referrals", "Timeline Creation"]
+    }
+  ]
+}

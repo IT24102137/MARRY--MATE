@@ -1,0 +1,60 @@
+{
+  "admins": [
+    {
+      "adminId": "Admin01",
+      "username": "superadmin1",
+      "password": "admin123",
+      "email": "admin01@weddingplanner.com",
+      "fullName": "John Smith",
+      "isSuperAdmin": true,
+      "permissions": ["manage_users", "manage_vendors", "manage_bookings", "manage_admins"],
+      "lastLogin": "2025-04-26 10:15:22",
+      "active": true,
+      "role": "admin",
+      "createdBy": null,
+      "createdDate": "2024-10-15 08:00:00"
+    },
+    {
+      "adminId": "A1002",
+      "username": "superadmin2",
+      "password": "admin123",
+      "email": "admin02@weddingplanner.com",
+      "fullName": "Lisa Garcia",
+      "isSuperAdmin": true,
+      "permissions": ["manage_users", "manage_vendors", "manage_bookings", "manage_admins"],
+      "lastLogin": "2025-04-25 16:30:45",
+      "active": true,
+      "role": "admin",
+      "createdBy": "Admin01",
+      "createdDate": "2024-11-03 09:15:00"
+    },
+    {
+      "adminId": "A1003",
+      "username": "admin1",
+      "password": "admin123",
+      "email": "mark@weddingplanner.com",
+      "fullName": "Mark Taylor",
+      "isSuperAdmin": false,
+      "permissions": ["manage_users", "manage_vendors", "manage_bookings"],
+      "lastLogin": "2025-04-26 09:05:18",
+      "active": true,
+      "role": "admin",
+      "createdBy": "Admin01",
+      "createdDate": "2025-01-12 11:30:00"
+    },
+    {
+      "adminId": "A1004",
+      "username": "admin2",
+      "password": "admin123",
+      "email": "amanda@weddingplanner.com",
+      "fullName": "Amanda Johnson",
+      "isSuperAdmin": false,
+      "permissions": ["manage_users", "manage_vendors", "manage_bookings"],
+      "lastLogin": "2025-04-24 14:20:33",
+      "active": true,
+      "role": "admin",
+      "createdBy": "A1002",
+      "createdDate": "2025-02-20 13:45:00"
+    }
+  ]
+}

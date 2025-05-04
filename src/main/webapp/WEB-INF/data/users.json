@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "address": "123 Maple Street, Springfield, IL",
+      "userId": "U1001",
+      "username": "sarah_bride",
+      "password": "123",
+      "email": "sarah@example.com",
+      "fullName": "Sarah Johnson",
+      "phoneNumber": "+1-555-123-4567",
+      "role": "user",
+      "registrationDate": "2025-01-15 09:30:00",
+      "profilePicture": "images/users/sarah.jpg",
+      "active": true
+    },
+    {
+      "address": "456 Oak Avenue, Riverdale, NY",
+      "userId": "U1002",
+      "username": "michael_groom",
+      "password": "hashed_password_here",
+      "email": "michael@example.com",
+      "fullName": "Michael Wilson",
+      "phoneNumber": "+1-555-987-6543",
+      "role": "user",
+      "registrationDate": "2025-02-03 14:20:00",
+      "profilePicture": "images/users/michael.jpg",
+      "active": true
+    },
+    {
+      "address": "789 Pine Road, Lakeside, CA",
+      "userId": "U1003",
+      "username": "emma_bride",
+      "password": "hashed_password_here",
+      "email": "emma@example.com",
+      "fullName": "Emma Rodriguez",
+      "phoneNumber": "+1-555-345-6789",
+      "role": "user",
+      "registrationDate": "2025-03-10 11:15:00",
+      "profilePicture": "images/users/emma.jpg",
+      "active": true
+    },
+    {
+      "address": "321 Elm Street, Mountainview, CO",
+      "userId": "U1004",
+      "username": "james_groom",
+      "password": "hashed_password_here",
+      "email": "james@example.com",
+      "fullName": "James Thompson",
+      "phoneNumber": "+1-555-234-5678",
+      "role": "user",
+      "registrationDate": "2025-03-22 16:45:00",
+      "profilePicture": "images/users/james.jpg",
+      "active": true
+    },
+    {
+      "address": "654 Birch Lane, Seaside, FL",
+      "userId": "U1005",
+      "username": "sofia_bride",
+      "password": "hashed_password_here",
+      "email": "sofia@example.com",
+      "fullName": "Sofia Chen",
+      "phoneNumber": "+1-555-876-5432",
+      "role": "user",
+      "registrationDate": "2025-04-05 10:00:00",
+      "profilePicture": "images/users/sofia.jpg",
+      "active": true
+    },
+    {
+      "userId": "U1008",
+      "username": "TEST01",
+      "password": "TEST01@gmail.com",
+      "email": "TEST01@gmail.com",
+      "fullName": "TEST",
+      "phoneNumber": "",
+      "role": "user",
+      "registrationDate": "2025-05-03 17:33:56",
+      "active": true
+    }
+  ]
+}
