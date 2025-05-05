@@ -1,7 +1,8 @@
 /**
  * Login Page JavaScript - Marry Mate Wedding Planning System
  * 
- * User: IT24102137 Janith Deshan
+ * Current Date and Time: 2025-04-26 15:26:01
+ * Current User: IT24102137
  */
 
 // Wait for document to be fully loaded before running scripts
