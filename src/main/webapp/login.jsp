@@ -15,6 +15,12 @@ String successMessage = (String) session.getAttribute("successMessage");
 if (successMessage != null) {
     session.removeAttribute("successMessage"); // Clear the message after retrieving it
 }
+
+// Check if there's an account status message
+String accountStatusMessage = (String) session.getAttribute("accountStatusMessage");
+if (accountStatusMessage != null) {
+    session.removeAttribute("accountStatusMessage"); // Clear the message after retrieving it
+}
 %>
 
 <!DOCTYPE html>
@@ -138,6 +144,11 @@ if (successMessage != null) {
                         <i class="fas fa-check-circle me-2"></i> <%= successMessage %>
                     </div>
                     <% } %>
+                    <% if (accountStatusMessage != null && !accountStatusMessage.isEmpty()) { %>
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle me-2"></i> <%= accountStatusMessage %>
+                    </div>
+                    <% } %>
                 </div>
             </form>
         </div>
@@ -184,8 +195,16 @@ if (successMessage != null) {
         const messageContainer = document.getElementById('loginMessage');
         if (!messageContainer) return;
         
-        const iconClass = type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle';
-        const alertClass = type === 'success' ? 'alert-success' : 'alert-danger';
+        let iconClass = 'fa-exclamation-circle';
+        let alertClass = 'alert-danger';
+        
+        if (type === 'success') {
+            iconClass = 'fa-check-circle';
+            alertClass = 'alert-success';
+        } else if (type === 'warning') {
+            iconClass = 'fa-exclamation-triangle';
+            alertClass = 'alert-warning';
+        }
         
         messageContainer.innerHTML = `
             <div class="alert ${alertClass}" role="alert">
@@ -199,8 +218,3 @@ if (successMessage != null) {
     </script>
 </body>
 </html>
-
-
-
-// Login Page - Marry Mate Wedding Planning System 
-// User: IT24102137 JANITH DESHAN
