@@ -1,0 +1,65 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Spring Dispatcher Servlet -->
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <!-- Vendor Servlets -->
+    <servlet>
+        <servlet-name>photographerVendorServlet</servlet-name>
+        <servlet-class>com.weddingplanner.servlet.PhotographerVendorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>photographerVendorServlet</servlet-name>
+        <url-pattern>/photographers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>catererVendorServlet</servlet-name>
+        <servlet-class>com.weddingplanner.servlet.CatererVendorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>catererVendorServlet</servlet-name>
+        <url-pattern>/caterers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>floristVendorServlet</servlet-name>
+        <servlet-class>com.weddingplanner.servlet.FloristVendorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>floristVendorServlet</servlet-name>
+        <url-pattern>/florists</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>vendorListServlet</servlet-name>
+        <servlet-class>com.weddingplanner.servlet.VendorListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vendorListServlet</servlet-name>
+        <url-pattern>/vendors</url-pattern>
+    </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Global text styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    color: #0a3d62; /* Navy blue */
+}
+
+/* Card headers */
+.card-header {
+    background-color: #e8eff7;
+    color: #0a3d62;
+    font-weight: bold;
+}
+
+/* Custom buttons */
+.btn-primary {
+    background-color: #0a3d62;
+    border-color: #0a3d62;
+}
+
+.btn-primary:hover {
+    background-color: #062f4f;
+    border-color: #062f4f;
+}
+
+.btn-secondary {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-secondary:hover {
+    background-color: #2d4373;
+    border-color: #2d4373;
+}
+
+/* Select dropdown */
+select.form-select {
+    background-color: #ffffff;
+    border: 1px solid #0a3d62;
+    color: #0a3d62;
+}
+
+select.form-select:focus {
+    border-color: #062f4f;
+    box-shadow: 0 0 0 0.2rem rgba(10, 61, 98, 0.25);
+}
+
+/* Input focus styles */
+input.form-control:focus,
+textarea.form-control:focus {
+    border-color: #0a3d62;
+    box-shadow: 0 0 0 0.2rem rgba(10, 61, 98, 0.25);
+}
+
+/* Badge styling */
+.badge.bg-primary {
+    background-color: #0a3d62;
+}
+
+/* Footer or secondary text */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Vendor card shadow */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
